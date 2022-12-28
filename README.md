@@ -1,16 +1,10 @@
-# bloc_listviewbuilder_2
+# random_product_card
+Appearing random number of product card based on button pressed
 
-A new Flutter project.
 
-## Getting Started
+Hey i just faced a problem that ProdouctState at initial is const so the state can recognize it when the state (number of ProductCard) changes to 0. But when the state (number of ProductCard) changes to 1 or 2, the state can't recognize is with equatable
 
-This project is a starting point for a Flutter application.
+please do
+flutter pub get first
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+then run on android only
